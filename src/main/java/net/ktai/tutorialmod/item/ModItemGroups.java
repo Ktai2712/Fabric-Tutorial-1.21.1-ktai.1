@@ -29,6 +29,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
                     }).build());
 
+
     public static void registerItemGroups(){
         TutorialMod.LOGGER.info("Registering Item Groups for " + TutorialMod.MOD_ID);
     }
