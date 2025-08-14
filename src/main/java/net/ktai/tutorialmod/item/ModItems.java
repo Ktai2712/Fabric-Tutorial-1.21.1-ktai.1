@@ -27,6 +27,7 @@ public class ModItems {
             super.appendTooltip(stack, context, tooltip, type);
         }
     });
+    public static final Item SPAGHETTOS = registerItem("spaghettos" , new Item(new Item.Settings().food(ModFoodComponent.SPAGHETTOS)));
 
     public static final Item STARLIGHT_ASHES = registerItem("starlight_ashes" , new Item(new Item.Settings()));
 
